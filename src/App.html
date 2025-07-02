@@ -1,0 +1,21 @@
+<!-- Due to the fact that Code App does not support Vue's auto completion and static code analysis, HTML is temporarily used instead. -->
+
+<template>
+  <v-app>
+    <v-app-bar color="primary">
+      <v-app-bar-title text="Hello, Code App!" />
+    </v-app-bar>
+
+    <v-main>
+      <span class="text-caption">Current time: {{ currentTime }}</span>
+    </v-main>
+  </v-app>
+</template>
+
+<script setup>
+  import { shallowRef } from 'vue';
+
+  const currentTime = shallowRef(null);
+
+  setInterval(() => (currentTime.value = new Date().toUTCString()), 1000);
+</script>

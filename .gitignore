@@ -1,0 +1,4 @@
+node_moduels/
+dist/bundle.js
+dist/bundle.js.LICENSE.txt
+package_lock.json
