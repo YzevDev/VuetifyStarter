@@ -1,6 +1,6 @@
 ## Vue 3 + Vue Router + Vuetify starter project for [Code App](https://github.com/codeapp)
 
-[![Stars](https://img.shields.io/github/stars/YzevDev/VueStarter?style=flat-square)](https://github.com/YzevDev/VueStarter/stargazers)
+[![Stars](https://img.shields.io/github/stars/YzevDev/VuetifyStarter?style=flat-square)](https://github.com/YzevDev/VuetifyStarter/stargazers)
 
 ### Start:
 
